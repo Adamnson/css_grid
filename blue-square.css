@@ -1,0 +1,10 @@
+.item-1 {
+  height: 100px;
+  width: 100px;
+  display:grid;
+  grid-template: 50px 50px/ 50px 50px;
+}
+
+#blue-square {
+  border: 1px solid blue;
+}
