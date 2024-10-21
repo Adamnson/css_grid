@@ -1,0 +1,28 @@
+.fruit-box {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:
+  [left] 1fr
+  [middle1] 1fr
+  [middle2] 1fr
+  [right];
+  border: 2px solid;
+  width: 300px;
+  padding: 4px;
+}
+
+.apple {
+  background: red;
+}
+
+.kiwi {
+  background: #90ee90;
+}
+
+.mango {
+  background: #ff0;
+}
+.orange {
+  background: orange;
+  grid-column: left / right;
+}

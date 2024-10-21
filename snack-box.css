@@ -1,0 +1,25 @@
+.snack-box {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "top top" "bottom1 bottom2";
+  grid-template-columns: 1fr 2fr;
+  height: 80px;
+  width: 300px;
+  border: 4px solid;
+  margin: 20px;
+}
+
+.seaweed {
+  grid-area: top;
+  background: #00fa9a;
+}
+
+.chips {
+  grid-area: bottom1;
+  background: #fafad2
+}
+
+.peanut {
+  grid-area: bottom2;
+  background: #f4a460;
+}
