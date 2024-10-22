@@ -9,20 +9,26 @@
   border: 2px solid;
   width: 300px;
   padding: 4px;
+  justify-items: center;
+  text-align: center;
 }
 
+.fruit-box > * {
+  width: 100%;
+  border: 1px solid;
+}
 .apple {
-  background: red;
+  background-color: red;
 }
 
 .kiwi {
-  background: #90ee90;
+  background-color: #90ee90;
 }
 
 .mango {
-  background: #ff0;
+  background-color: #ff0;
 }
 .orange {
-  background: orange;
+  background-color: orange;
   grid-column: left / right;
 }

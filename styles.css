@@ -1,5 +1,6 @@
 .row-1, 
-.row-2 {
+.row-2,
+.row-3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,8 +10,9 @@
 }
 
 .row-1 > *,
-.row-2 > * {
-  padding: 50px;
+.row-2 > *,
+.row-3 > * {
+  padding: 30px;
 }
 
 .container {
