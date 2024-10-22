@@ -45,6 +45,11 @@
   grid-template-columns: 100px 100px 100px;
 }
 
+.item {
+  background-color: orange;
+  border: 1px solid;
+  text-align: center;
+}
 .first-row {
   background-color: pink;
 }

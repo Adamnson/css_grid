@@ -1,0 +1,31 @@
+
+.container-2 {
+  display: inline-grid;
+  grid-template: 40px 40px 40px 40px 40px/ 40px 40px 40px 40px 40px;
+  background-color: lightgreen;
+  grid-template-areas: "wohnzimmer wohnzimmer wohnzimmer wohnzimmer wohnzimmer" 
+  "wohnzimmer wohnzimmer wohnzimmer wohnzimmer wohnzimmer"
+  "schlafzimmer schlafzimmer badezimmer küche küche"
+  "schlafzimmer schlafzimmer badezimmer küche küche"
+  "schrank schrank badezimmer küche küche"
+}
+
+#wohnzimmer {
+  grid-area: wohnzimmer;
+}
+
+#küche {
+  grid-area: küche;
+}
+
+#schlafzimmer {
+  grid-area: schlafzimmer;
+}
+
+#badezimmer {
+  grid-area: badezimmer;
+}
+
+#schrank {
+  grid-area: schrank;
+}

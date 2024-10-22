@@ -1,0 +1,32 @@
+
+.container-3 {
+  display: inline-grid;
+  grid-template: 40px 40px 40px 40px 40px/40px 40px 40px 40px 40px;
+  background-color: lightcoral;
+  grid-template-areas: 
+  "oo oo oo oo oo"
+  "oo oo oo oo oo"
+  "yo yo ba mt mt"
+  "yo yo ba mt mt"
+  "do do . . ."
+}
+
+#oturmaodası {
+  grid-area: oo;
+}
+
+#mutfak {
+  grid-area: mt;
+}
+
+#yatakodası {
+  grid-area: yo;
+}
+
+#banyo {
+  grid-area: ba;
+}
+
+#dolap {
+  grid-area: do;
+}
