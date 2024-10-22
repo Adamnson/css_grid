@@ -38,3 +38,17 @@
 .container-1 > * {
   padding: 10px;
 }
+
+.container-3 {
+  display:grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+}
+
+.first-row {
+  background-color: pink;
+}
+
+.last-column {
+  background-color: lightblue;
+}
